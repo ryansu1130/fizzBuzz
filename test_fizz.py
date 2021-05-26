@@ -8,5 +8,8 @@ class TestCase(unittest.TestCase):
     def testTwo(self):
         self.assertEqual(fizz.fizzBuzz(3),"fizz")
 
+    def testThree(self):
+        self.assertEqual(fizz.fizzBuzz(5),"buzz")
+
 if __name__ == '__main__':
     unittest.main()
