@@ -1,2 +1,6 @@
 def fizzBuzz(num):
-    return 1
+    for i in range(0,100):
+        if num == 1:
+            return 1
+        if num % 3 == 0:
+            return "fizz"
